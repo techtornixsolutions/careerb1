@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
     <form action="">
 
 
 
-        
+
         <!-- Text input for name -->
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" required>
         <br><br>
 
         <!-- Email input for user email -->
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
+        <label for="email">Enter you Email</label>
+        <input type="email" name="email" required>
         <br><br>
 
         <!-- Radio buttons for gender selection -->
-        <label>Select Gender:</label><br>
-        <input type="radio" name="gender" id="male" value="male">
+
+
+
+        <input type="radio" name="g" id="male" value="male">
         <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="female">
+        <input type="radio" name="g" id="female" value="female">
         <label for="female">Female</label>
         <br><br>
 
@@ -39,14 +43,16 @@
         <input type="password" name="password" id="password" required>
         <br><br>
 
+
         <!-- File upload input -->
         <label for="file">Upload File:</label>
         <input type="file" name="file" id="file">
         <br><br>
 
+
         <!-- Text input with placeholder -->
         <label for="username">Username:</label>
-        <input type="text" name="username" id="username" placeholder="Enter your username">
+        <input type="text" name="username" id="username" placeholder="enter your name" autofocus>
         <br><br>
 
         <!-- Required text input -->
@@ -61,7 +67,7 @@
 
         <!-- Number input for numeric values -->
         <label for="age">Age:</label>
-        <input type="number" name="age" id="age" min="1"> <!-- min use for  Minimum age is 1 -->
+        <input type="number" name="age" id="age" min="1"> min use for Minimum age is 1
         <br><br>
 
         <!-- Dropdown selection -->
@@ -71,16 +77,39 @@
             <option value="pakistan">Pakistan</option>
             <option value="america">America</option>
         </select>
+
+
+
         <br><br>
 
         <!-- Textarea for multi-line input -->
         <label for="comments">Comments:</label>
-        <textarea name="comments" id="comments" rows="3" cols="30" placeholder="Enter your message"></textarea>
+        <textarea name="comments" id="comments" rows="10" cols="30" placeholder="Enter your message"></textarea>
         <br><br>
 
+        <!-- for the contact etc -->
+
+        <input type="tel" name="" id="">
+
+        <!-- for the range -->
+
+        <label for="">enter your range</label>
+        <input type="range">
+
+        <!-- for url  -->
+
+        <input type="url" name="" id="">
+
+        <!-- for date and time -->
+
+        <input type="date" name="" id="">
+
         <!-- Submit button -->
-        <button type="submit">Submit</button>
+        <input type="submit" name="" id="">
+
+        <!-- <button type="submit">Submit</button> -->
 
     </form>
 </body>
+
 </html>
