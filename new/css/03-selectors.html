@@ -1,112 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>selectors</title>
+    <title>Selectors</title>
     <style>
-        h1 {
+        *{
+
+        }
+        h1{
             color: red;
+            background-color: aqua;
         }
-
-        #one {
-            color: chartreuse;
-        }
-
-        .two {
+        .heading2{
             color: blue;
         }
-
-        
-        .three>h1 {
-            color: green;
+        .change{
+            color: violet;
         }
-        .four>h1{
-            color: blueviolet;
+        #heading5{
+            color: darkcyan;
         }
-
-        .three h2 {
-            color: brown;
-        }
-
-        .three :first-child {
-            color: orange;
-        }
-        .headingh1:hover{
-            color: black;
-        }
-
-
-
-        /* a:hover{
-            background-color: yellowgreen;
-
-        } */
-        /* a:active{
-            background-color: red;
-        } */
-        /* a:visited {
-            background-color: yellowgreen;
-        } */
-
-        /* a:link{
-            background-color: red;
-        } */
-        * {
-            background-color: rgb(5, 14, 5);
-            
-            
-        }
-        /* .box{
-            height: 300px;
-            width: 300px;
-            background-color: rgb(255, 81, 0);
-        }
-        .box:hover{
+        div{
+            height: 200px;
+            width: 200px;
             background-color: aqua;
-            height: 400px;
-            width: 400px;
-        } */
+        }
+        
+        .box{
+            background-color: black !important;
+        }
+        #box1{
+            background-color: blue;
+        }
         
     </style>
 </head>
-
 <body>
+    <h1>css Selectors</h1>
+    <h1 class="heading2">hello you are you</h1>
 
+    <h2>1</h2>
+    <h2>2</h2>
+    <h2 class="change">3</h2>
+    <h2>4</h2>
+    <h2 id="heading5">5</h2>
 
-    <!-- <h1 id="one">hello </h1>
-    <h1 class="two">hi</h1>
-    <h1>hey</h1>
-    <h1>world</h1> -->
-    <div class="three">
-        <p>
-            hello world
-        <h1>class <h2>hello</h2>
-        </h1>
-        </p>
+    <div class="box" id="box1">
 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quas reprehenderit qui nostrum totam aliquam
-        fugiat aperiam aut tempore laboriosam libero inventore quam quos consequatur ab, ullam quis. Commodi, ullam?
     </div>
-
-    <div class="four">
-        <p>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit quaerat. Aut, beatae quisquam
-            numquam libero voluptatum reprehenderit sint exercitationem pariatur accusamus porro voluptatem, dolores
-            repellat distinctio placeat facilis doloribus.</h1>
-        <h1 class="headingh1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit quaerat. Aut, beatae quisquam
-            numquam libero voluptatum reprehenderit sint exercitationem pariatur accusamus porro voluptatem, dolores
-            repellat distinctio placeat facilis doloribus.</h1>
-        </p>
-    </div>
-
-    <div class="box">
-        <h1>Box1</h1>
-    </div>
-    <a href="www.youtube.com">click me jasjleflalsdlhfli</a>
-
-
 </body>
-
 </html>

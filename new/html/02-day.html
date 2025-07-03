@@ -10,22 +10,25 @@
 <body>
     <form action="">
 
+        <form action="submit">
+
+        </form>
 
 
 
         <!-- Text input for name -->
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" required>
+
+
         <br><br>
 
         <!-- Email input for user email -->
         <label for="email">Enter you Email</label>
-        <input type="email" name="email" required>
+        <input type="email" name="email"  value="" placeholder="enter yo mail" required>
         <br><br>
 
         <!-- Radio buttons for gender selection -->
-
-
 
         <input type="radio" name="g" id="male" value="male">
         <label for="male">Male</label>
@@ -52,7 +55,7 @@
 
         <!-- Text input with placeholder -->
         <label for="username">Username:</label>
-        <input type="text" name="username" id="username" placeholder="enter your name" autofocus>
+        <input type="text" name="username" id="username" placeholder="enter your name">
         <br><br>
 
         <!-- Required text input -->
@@ -62,7 +65,7 @@
 
         <!-- Autofocus input (auto-focuses when page loads) -->
         <label for="autofocusInput">Autofocus Input:</label>
-        <input type="text" name="autofocusInput" id="autofocusInput" autofocus>
+        <input type="text" name="autofocusInput" id="autofocusInput" autofocus required>
         <br><br>
 
         <!-- Number input for numeric values -->
@@ -71,12 +74,14 @@
         <br><br>
 
         <!-- Dropdown selection -->
-        <label for="country">Select Country:</label>
-        <select name="country" id="country">
-            <option value="british">British</option>
-            <option value="pakistan">Pakistan</option>
-            <option value="america">America</option>
-        </select>
+      <label for=""> Select your counrty</label>
+      <select name="" id="">
+        <option value="">PAK</option>
+        <option value="">Turkey</option>
+        <option value="">USA</option>
+        <option value="">UK</option>
+        <option value="">Arab</option>
+      </select>
 
 
 
@@ -84,6 +89,10 @@
 
         <!-- Textarea for multi-line input -->
         <label for="comments">Comments:</label>
+
+      <textarea name="" id="" rows="10" cols="20" placeholder="Enter your sugestion"></textarea>
+
+
         <textarea name="comments" id="comments" rows="10" cols="30" placeholder="Enter your message"></textarea>
         <br><br>
 
@@ -106,8 +115,8 @@
 
         <!-- Submit button -->
         <input type="submit" name="" id="">
-
-        <!-- <button type="submit">Submit</button> -->
+      <!-- <button type="reset">click me</button>
+        <button type="submit">Submit</button> -->
 
     </form>
 </body>

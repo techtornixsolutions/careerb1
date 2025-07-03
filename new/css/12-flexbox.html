@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Layout Demo</title>
+  <style>
+    .flex-container {
+      display: flex; /* Flexbox ko enable krta hai */
+
+      flex-direction: row; /* Items ko row (horizontal) mai arrange krta hai (default) */
+      /* flex-direction: column;   vertical direction ke liye */
+      /* flex-direction: row-reverse; reverse row order */
+      /* flex-direction: column-reverse; reverse column order */
+
+      flex-wrap: wrap; /* Agar space kam ho to items next line pe chale jain */
+      /* flex-wrap: nowrap; default */
+      /* flex-wrap: wrap-reverse; reverse wrapping direction */
+
+      justify-content: center; /* Main axis (horizontal) pe center alignment */
+      /* options: flex-start, flex-end, center, space-between, space-around, space-evenly */
+
+      align-items: center; /* Cross axis (vertical) pe center align krta hai */
+      /* options: stretch (default), flex-start, flex-end, center, baseline */
+
+      align-content: space-between; /* Multi-line content k liye vertical spacing */
+      /* options: flex-start, flex-end, center, space-between, space-around, stretch */
+
+    flex-grow: 1; /* Available space ka proportion assign krta hai */
+      flex-shrink: 1; /* Shrink hone ka proportion jab space kam ho */
+      flex-basis: 100px; /* Initial size before grow/shrink */
+
+      height: 400px;
+      border: 2px solid #000;
+    }
+
+    .flex-item {
+      background-color: lightblue;
+      border: 1px solid blue;
+      padding: 20px;
+      margin: 10px;
+      width: 100px;
+      text-align: center;
+
+      /* Item-specific properties */
+     
+
+      /* flex shorthand: flex-grow flex-shrink flex-basis */
+      /* flex: 1 1 100px; */
+
+      align-self: auto; /* Individual item alignment override */
+      /* options: auto (default), flex-start, flex-end, center, baseline, stretch */
+
+      order: 0; /* Items ka order define krta hai */
+      /* default: 0, lower value = pehle aayega */
+    }
+
+    .item2 {
+      order: 1 ; 
+      flex-grow: 2; /* is item ko double grow krna baqi se */
+      align-self: flex-start; /* Is item ko bottom pe align krdo */
+    }
+
+    .item3 {
+      flex: 0 0 150px; /* Na grow ho na shrink ho, fixed width */
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>Flexbox Full Example</h2>
+
+  <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item item2">Item 2</div>
+    <div class="flex-item item3">Item 3</div>
+    <div class="flex-item">Item 4</div>
+    <div class="flex-item">Item 5</div>
+  </div>
+
+</body>
+</html>
