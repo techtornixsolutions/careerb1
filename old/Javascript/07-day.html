@@ -91,9 +91,9 @@
          * Method 2: Using addEventListener (commented)
          * Purpose: A more modern and flexible way to attach event listeners
          */
-        // document.querySelector(".child1").addEventListener("click", function() {
-        //     document.querySelector(".child1").style.display = "none";
-        // });
+        document.querySelector(".btn").addEventListener("click", function() {
+            document.querySelector(".child1").style.backgroundColor= "red";
+        });
 
         /**
          * Method 3: Toggle class using classList (active)

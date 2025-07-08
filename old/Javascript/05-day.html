@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body >
+<body onkeypress="hello()" >
+    <h1>Events</h1>
 
-    <span onmouseenter="hello()">hello</span> <br>
-    <button onkeypress="hello()" onmou>click me</button>
+
+    <button onclick="hello()">click me</button>
+
+
+
     <!-- some events that use for mostly in website creating 
     onclick
     ondblclick
@@ -21,9 +25,10 @@
     <p></p>
 
     <script>
-        function hello() {
-            alert("hello how are you");
-        }
+      function hello(){
+        alert("Hello World");
+
+      }
     </script>
 </body>
 </html>
