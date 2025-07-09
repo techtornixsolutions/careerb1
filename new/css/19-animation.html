@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: salmon;
+        /* animation-name: animateBox;
+            animation-duration: 2s; */
+        /* animation-iteration-count: infinite; */
+        /* animation-direction: alternate ; */
+        /* animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards; */
+        animation: animateBox 2s ease-in-out 1s infinite alternate;
+      }
+      @keyframes animateBox {
+        0% {
+        }
+        25% {
+          transform: translateX(100px);
+          background-color: aqua;
+          border-radius: 50%;
+          text-align: center;
+        }
+        50% {
+          transform: translateY(100px);
+          background-color: bisque;
+          border-radius: 10%;
+          
+        }
+        100%{
+            background-color: blueviolet;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Box</div>
+  </body>
+</html>
