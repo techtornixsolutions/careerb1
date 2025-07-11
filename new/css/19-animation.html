@@ -15,9 +15,54 @@
         /* animation-direction: alternate ; */
         /* animation-timing-function: ease-in-out;
             animation-fill-mode: forwards; */
-        animation: animateBox 2s ease-in-out 1s infinite alternate;
+        /* animation: animateBox 4s ease 1s infinite alternate;
+        animation: name duration timing-function delay iteration-count direction fill-mode;*/
+        align-content: center;
+        text-align: center; 
+        animation: animateBox 3s ease-in 1s infinite alternate-reverse;
+
       }
-      @keyframes animateBox {
+      @keyframes animateBox{
+        /* from{
+        }
+        to{
+          transform: translateX(100px);
+          background-color: aqua;
+          border-radius: 50%;
+        } */
+
+        0%{
+
+        }
+        25%{
+          background-color: aqua;
+          transform: translateX(200px);
+          border-radius: 50%;
+        }
+        50%{
+          background-color: blueviolet;
+          transform: translateX(100px);
+          transform: translateY(100px);
+        }
+        75%{
+          background-color: chartreuse;
+          transform: translateX(0px);
+          transform: translateY(100px);
+        }
+        100%{
+          background-color: transparent;
+          transform: translateX(0px);
+          transform: translateY(0px);
+        }
+
+      }
+
+
+
+
+
+
+      /* @keyframes animateBox {
         0% {
         }
         25% {
@@ -35,7 +80,7 @@
         100%{
             background-color: blueviolet;
         }
-      }
+      } */
     </style>
   </head>
   <body>
