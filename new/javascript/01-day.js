@@ -1,39 +1,39 @@
-// // >>>>>>>>>>>>>>>>>>>>>Variables and Constants<<<<<<<<<<<<<<<<<<<<<<
+// >>>>>>>>>>>>>>>>>>>>>Variables and Constants<<<<<<<<<<<<<<<<<<<<<<
 
-// let Name = "ali";
-// let a = 5;
+let Name = "ali";
+let a = 5;
 
-// var age = 20;
+var age = 20;
 
-// console.log(age);
+console.log(age);
 
-// var age = 30;
-// console.log(age);
-// // >>>>>>>>>>>>>>>>>>>>>Data Types<<<<<<<<<<<<<<<<<<<<<<
-// // primitive data types
-// // string, number, boolean, null, undefined, symbol, bigint
-// let name = "ali"; // string
-// let age = 20; // number
-// let isStudent = true; // boolean
-// let temperature = 36.6; //float
-// let address = null; // null
-// let phone; // undefined
-// let uniqueId = Symbol("id"); // symbol
-// let bigNumber = BigInt(12345678901234567890); // bigint
+var age = 30;
+console.log(age);
+// >>>>>>>>>>>>>>>>>>>>>Data Types<<<<<<<<<<<<<<<<<<<<<<
+// primitive data types
+// string, number, boolean, null, undefined, symbol, bigint
+let name = "ali"; // string
+let age = 20; // number
+let isStudent = true; // boolean
+let temperature = 36.6; //float
+let address = null; // null
+let phone; // undefined
+let uniqueId = Symbol("id"); // symbol
+let bigNumber = BigInt(12345678901234567890); // bigint
 
-// // non-primitive data types
-// // object, array, function
-// let person = {
-//     name: "ali",
-//     age: 20,
-//     isStudent: true
-// }; // object
+// non-primitive data types
+// object, array, function
+let person = {
+    name: "ali",
+    age: 20,
+    isStudent: true
+}; // object
 
-// let numbers = [1, 2, 3, 4, 5]; // array
+let numbers = [1, 2, 3, 4, 5]; // array
 
-// function greet() {
-//     console.log("Hello!");
-// } // function
+function greet() {
+    console.log("Hello!");
+} // function
 
 
 // >>>>>>>>>>>>>>>>>>>>>Operators<<<<<<<<<<<<<<<<<<<<<<
