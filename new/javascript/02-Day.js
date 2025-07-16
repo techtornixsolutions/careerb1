@@ -1,77 +1,91 @@
-// // let age = 18;
+// // >>>>>>>>>>>>>>>>>>>>>>>>>>>> Assignment operators <<<<<<<<<<<<<<<<<<<<<<<<
 
-// // arthmaticOperations
-// // +,-,/,*,%
+// // =  Assignment      let a = 10;
+// // ==  Equality   10==10
+// // === Identity  10===10.0
+// // <  Less than  10<20
+// // >  Greater than  20>10
+// // <= Less than or equal to  10<=10
+// // >= Greater than or equal to  20>=10
+// // != Not equal to  10!=20
+// // !== Not equal value or type 10!==10.0
 
-// // Addition
-// let a = 10;
-// let b = 20;
-// console.log(a + b);
+// // >>>>>>>>>>>>>>>>>>>>>>>>Arthmatic operators<<<<<<<<<<<<<<<<<<<<<<<<
 
-// // subtraction
-// let c = 30;
-// let d = 10 ;
-// console.log(c - d);
-
-// // multiplication
-// let e = 5;
-// let f = 4;
-// console.log("multiplication of e and f is :"+e * f);
-
-// division
-// let g = 100;
-// let h = 4;
-// console.log("division of g and h is :"+g / h);
-// modulus
-// let i = 10;
-// let j = 3;
-// console.log("modulus of i and j is :"+i%j);
+// // +  Addition      
 
 // a = 10;
-// b = 20.2;
+// b = 20;
+// console.log(a+b);
 
-// console.log(a!==b);
+// // -  Subtraction   20-10
+// console.log(b-a);
+// // *  Multiplication  10*20
+// console.log(a*b);
 
-// assignmentOperators
-// = , <, >, <=, >=, ==, !=, ===, !==;
-// let x = 10;
-// let y = 20;
-// console.log("x is equal to y: " + (x == y));
-// console.log("x is not equal to y: " + (x != y));
-// console.log("x is greater than y: " + (x > y));
-// console.log("x is less than y: " + (x < y));
-// console.log("x is greater than or equal to y: " + (x >= y));
-// console.log("x is less than or equal to y: " + (x <= y));
+// // /  Division  20/10
+// console.log(b/a);
+// // %  Modulus  20%10
+// console.log(b%a);
+// // ** Exponentiation  10**2
+// console.log(a**2);
+// // ++ Increment  a++ or ++a
+// a++;
+// console.log(a);
+// // -- Decrement  a-- or --a
+// a--;
+// console.log(a);
 
-// logicOperators
-// &&, ||, !;
-// !not operator
-// || or operator only one condition true honi chahiye
-// && and operator dono condition true honi chahiye
+// // >>>>>>>>>>>>>>>>>>>logical operators<<<<<<<<<<<<<<<<<<<<<<<<
 
-// conditions 
+// // &&  Logical AND  (a>10 && b>10)
+// let a = 10;
+// let b = 20;
+// console.log(a > 5 && b > 15); // true
+// // ||  Logical OR  (a>10 || b>10)
+// console.log(a > 15 || b > 15); // true
+// // !  Logical NOT  !(a>10)
+// console.log(!(a > 5)); // false
 
-// let std1 = 20;
-// let std2 = 10;
+// let age = 20;
+// let state = "Pakistan";
+// if (age >= 18 && state == "canada") {
+//     console.log("You can vote for Canada");
+// }else if(age>= 18 || state == "Pakistan") {
+//     console.log("You can vote for Pakistan");
+// }
+// else {
+//     console.log("You are not eligible to vote");
+// }
 
-// if (std1>=18 || std2>=18){
-// console.log("you are eligible:");
+// let age =18
 
-// }else {
-//     console.log("you are not eligible:");
+// if (age<20) {
+//     console.log("you are teen ager:");
+//     if (age>16) {
+//         break;
+//     }
+// } else {
     
 // }
-let marks = 10;
-if(a==b){
-    console.log("value of a  is equal to b");
-    
-} else if(a == c){
- console.log("a is equal to c");
- 
-}else if (b==c){
-console.log("value of b is equal to c");
 
-} else{
-    console.log("invalid input");
-    
+// >>>>>>>>>>>>>>>>>>>>>>>>>>switch statement <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+let age = prompt("Enter your age");
+age = Number(age);
+
+switch (true) {
+    case age > 10 && age < 15:
+        console.log("You are a child");
+        break;
+    case age > 15 && age < 18:
+        console.log("You are a middle student");
+        break;
+    case age >= 18:
+        console.log("You are eligible to vote");
+        break;
+    default:
+        console.log("You are not eligible to vote");
+        break;
 }
