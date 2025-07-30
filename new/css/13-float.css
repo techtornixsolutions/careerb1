@@ -1,56 +1,17 @@
+h1{
+height: 200px;
+width: 200px;
+background-color: aqua;
+}
+
 .one{
-    height: 700px;
-    width: 200px;
-    background-color: aqua;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-
-
-
-
+    float: left;
 }
 .two{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(9, 255, 0);
-    position: fixed;
-    top: 0px;
-    left: 300px;
-    top: 100px;
-
+    float: left;
+    background-color: blue;
 }
 .three{
-    height: 700px;
-    width: 200px;
-    background-color: rgb(255, 0, 0);
-    /* position: absolute; */
-    /* top: 150px;
-    left: 150px;
-    z-index: 3; */
-}
-/* .one{
-    height: 600px;
-    width: 80%;
-    background-color: aqua;
     float: left;
-    clear:
-   
-
-
-
+    background-color: chartreuse;
 }
-.two{
-    height: 200px;
-    width: 48%;
-    background-color: rgb(9, 255, 0);
-    float: left;
-   
-
-}
-.three{
-    height: 200px;
-    width: 48%;
-    background-color: rgb(255, 0, 0);
-    float: right;
-} */

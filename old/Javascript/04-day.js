@@ -82,7 +82,7 @@
 
        
                   
-//                   // ---------------------> Array Methods<--------------------------
+                  // ---------------------> Array Methods<--------------------------
 //  let arr = [1,2,3,4,5]
 // console.log(arr);
 //console.log(arr.toString()); //to convert the string in an arry//
